@@ -1,6 +1,5 @@
 * {
     margin: 0;
-    /* font-family: 'Work Sans', 'Poppins'; */
     font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
 
@@ -44,6 +43,7 @@
     border-radius: 5px;
     border: none;
     font-size: 20px;
+    font-weight: 600;
 }
 
 
@@ -101,6 +101,12 @@
     justify-content:space-evenly;
 }
 
+.plans-img {
+    padding-bottom: 13px;
+}
+
+/* ------------ Call section css ------------ */
+
 .call-main-section {
     display: flex;
     align-items: center;
@@ -109,7 +115,7 @@
 
 .call-section {
     background-image: url('./images/gradient3.png'), url('./images/watch.png');
-    height: 400px;
+    height: 250px;
     width: 70%;
     background-size:contain;
     background-repeat: no-repeat;
@@ -135,6 +141,40 @@
     border: none;
     font-size: 20px;
 }
+
+
+/* ------------ New section css ------------ */
+
+.month-section {
+    margin: 100px 150px;
+    
+}
+
+.monthly-todo-title {
+    text-align: center;
+    padding-bottom: 50px;
+    font-size: 35px;
+}
+
+.monthly-name {
+    text-align: center;
+    margin-bottom: 15px;
+}
+
+.monthly-todos {
+    display: flex;
+    justify-content: space-around;
+}
+
+.monthly-list {
+    /* border: 2px solid red; */
+    padding: 30px;
+    background-color: rgb(251, 86, 3);
+    border-radius: 10px;
+    color: antiquewhite;
+    font-weight: 600;
+}
+
 
 
 /* ------------ Footer section css ------------ */
